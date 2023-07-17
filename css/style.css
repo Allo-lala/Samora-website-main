@@ -2,9 +2,25 @@
 :root {
     --primary: #000000;
     --secondary: #000000;
-    --light: #F1F3FA;
+    --light: #e5ff00;
     --dark: #000000;
 }
+
+#whatsappButton {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+            background-color: #25D366; /* Green color */
+            color: #FFFFFF; /* White text color */
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            border-radius: 50px;
+}
+
 
 .back-to-top {
     position: fixed;
@@ -28,6 +44,16 @@
     background: #000;
 }
 
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #e5d407;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
 
 
 /*** Spinner ***/

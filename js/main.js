@@ -81,6 +81,18 @@
             }
         }
     });
+
+     // Replace 'your-phone-number' with your actual phone number, including the country code
+    //  var phoneNumber = 'your-phone-number';
+
+     // Replace 'your-website-url' with your actual website URL
+    //  var websiteUrl = 'your-website-url';
+
+     // WhatsApp button HTML
+    //  var whatsappButton = '<a href="https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=Hello%21%20I%20found%20you%20on%20' + websiteUrl + '" target="_blank">How Are You?</a>';
+
+     // Render the WhatsApp button
+    //  document.getElementById('whatsappButton').innerHTML = whatsappButton;
     
 })(jQuery);
 
